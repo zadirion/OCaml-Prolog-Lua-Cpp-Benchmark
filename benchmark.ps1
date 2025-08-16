@@ -63,7 +63,7 @@ function Add-ProcessPath {
 }
 
 
-Add-ProcessPath @('C:\Program Files\swipl\bin', 'C:\Users\zadir\AppData\Local\opam\5.2.0-msvc\bin') -Prepend
+Add-ProcessPath @('C:\Program Files\swipl\bin', "$env:localappdata\opam\5.2.0-msvc\bin") -Prepend
 
 
 # ---- Setup ----
