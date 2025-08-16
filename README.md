@@ -1,5 +1,5 @@
 *Important to note* 
-The bytecode OCaml is the one used here, not the native one. This is because for my purposes I needed to evaluate various bytecode languages for game scripting purposes, and how they compare to C++ as a reference.
+The bytecode OCaml is the one used here, not the native one. This is because for my purposes I needed to evaluate various functional/declarative bytecode languages for game scripting purposes, and how they compare to C++ as a reference.
 
 Also the tests are quite imperfect because each individual run is a newly spawned process, so we pay the cost of bootstrapping said language and process and that ends up counted in the benchmark
 
